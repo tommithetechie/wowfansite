@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Azeroth Echoes — a World of Warcraft fansite archive, guides, news, and gallery celebrating Wrath of the Lich King and classic WoW eras.">
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="Azeroth Echoes - The Ultimate World of Warcraft Fansite">
+    <meta property="og:description" content="News, guides, galleries and community resources for WoW fans — focused on Wrath of the Lich King era.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./logos/WOW_Wrath_of_the_Lich_King_transparency.png">
+    <meta property="og:site_name" content="Azeroth Echoes">
+    <link rel="icon" href="./logos/favicon.ico">
+    <title>Azeroth Echoes - The Ultimate World of Warcraft Fansite</title>
+    <!-- Bootstrap 5.3+ CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Authentic WoW Typography from Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar-wow" data-bs-offset="100">
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- 1. Sticky Top Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-wow fixed-top py-3">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#home" title="Azeroth Echoes — Home">
+                <img src="./logos/WoWlogo_transparency.png" height="45" alt="WoW Logo Murloc" class="murloc-spin me-2" loading="lazy" width="45" height="45">
+                <span class="text-gold glow-gold d-none d-sm-inline ms-1 fs-4">Azeroth Echoes</span>
+            </a>
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#wowNav" aria-controls="wowNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="wowNav">
+                <ul class="navbar-nav ms-auto fs-6">
+                    <li class="nav-item"><a class="nav-link px-3" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#news">News</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#expansions">Expansions</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#classes">Champions</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#lore">Lore</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#community">Community</a></li>
+                    <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+                        <a class="btn btn-wow btn-sm py-2 px-3 w-100" href="#downloads">Downloads</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. Full-screen Hero Banner -->
+    <header id="home" class="hero-banner">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <img src="./logos/WOW_Wrath_of_the_Lich_King_transparency.png" alt="Wrath of the Lich King"
+                class="hero-logo mb-4 img-fluid">
+            <h1 class="display-3 fw-bold text-white mb-3 glow-blue">The Frozen Throne Beckons</h1>
+            <p class="lead text-light mb-5 fs-4">
+                Gather your guild, brace against the bitter winds of Northrend, and prepare to face the ultimate evil. A
+                comprehensive archive of the greatest MMORPG era awaits.
+            </p>
+            <div class="d-flex flex-column flex-sm-row gap-4 justify-content-center">
+                <a href="#news" class="btn btn-lg btn-wow px-5 py-3 fs-5">Patch Notes</a>
+                <button id="forHordeBtn" type="button" class="btn btn-lg btn-wow btn-horde px-5 py-3 fs-5">For the Horde!</button>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+
+    <!-- 3. Latest News / Patch Notes -->
+    <section id="news" class="py-5">
+        <div class="container mt-5">
+            <h2 class="section-title">Latest Dispatches</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="wow-card h-100 d-flex flex-column">
+                        <div class="card-img-wrapper">
+                            <img src="./screenshots/WoW_WotLK_ss01.jpg" alt="Death Knight Update"
+                                class="img-fluid w-100" loading="lazy" width="1200" height="800">
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <span class="badge bg-danger mb-3 align-self-start fs-6 border border-dark">Patch
+                                Notes</span>
+                            <h4 class="card-title text-gold mb-3">Death Knight Tuning</h4>
+                            <p class="card-text text-secondary mb-4 flex-grow-1">The Ebon Blade's finest have received a
+                                tuning pass. Runeforging improvements and significant adjustments to the Unholy plague
+                                spread mechanics. Your ghouls are now 20% more ravenous.</p>
+                            <a href="#" class="text-decoration-none text-info fw-bold glow-blue mt-auto">Read Full Notes
+                                &raquo;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="wow-card h-100 d-flex flex-column">
+                        <div class="card-img-wrapper">
+                            <img src="./screenshots/WoW_WotLK_ss03.jpg" alt="Naxxramas Raid" class="img-fluid w-100" loading="lazy" width="1200" height="800">
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <span class="badge bg-primary mb-3 align-self-start fs-6 border border-dark">Raiding</span>
+                            <h4 class="card-title text-gold mb-3">Naxxramas Returns</h4>
+                            <p class="card-text text-secondary mb-4 flex-grow-1">Kel'Thuzad has relocated his floating
+                                dread citadel to the skies above Dragonblight. Ensure your raid groups are prepared with
+                                ample frost resistance and patience.</p>
+                            <a href="#" class="text-decoration-none text-info fw-bold glow-blue mt-auto">Read Full Notes
+                                &raquo;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="wow-card h-100 d-flex flex-column">
+                        <div class="card-img-wrapper">
+                            <img src="./screenshots/WoW_WotLK_ss05.jpg" alt="Wintergrasp PvP" class="img-fluid w-100" loading="lazy" width="1200" height="800">
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <span class="badge bg-success mb-3 align-self-start fs-6 border border-dark">PvP
+                                Updates</span>
+                            <h4 class="card-title text-gold mb-3">Wintergrasp Escalation</h4>
+                            <p class="card-text text-secondary mb-4 flex-grow-1">The battle for Lake Wintergrasp
+                                intensifies. Siege vehicles have had their armor reinforced, and defensive turrets now
+                                deal increased splash damage. The Vault of Archavon awaits the victors.</p>
+                            <a href="#" class="text-decoration-none text-info fw-bold glow-blue mt-auto">Read Full Notes
+                                &raquo;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Featured Expansions Carousel -->
+    <section id="expansions" class="py-5">
+        <div class="container my-4">
+            <h2 class="section-title">Eras of Warcraft</h2>
+
+            <div id="expansionCarousel" class="carousel slide carousel-fade mx-auto" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#expansionCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Vanilla"></button>
+                    <button type="button" data-bs-target="#expansionCarousel" data-bs-slide-to="1"
+                        aria-label="The Burning Crusade"></button>
+                    <button type="button" data-bs-target="#expansionCarousel" data-bs-slide-to="2"
+                        aria-label="Wrath of the Lich King"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="6000">
+                        <img src="./wallpapers/wall3-1600x1200.jpg" class="d-block w-100"
+                            alt="World of Warcraft Classic" loading="lazy" width="1600" height="1200">
+                        <div class="carousel-caption d-none d-md-block">
+                            <img src="./logos/WoWlogo_transparency.png" alt="WoW Logo" height="60" class="mb-3" loading="lazy" width="120" height="60">
+                            <h3 class="fw-bold mb-2">The Original Experience</h3>
+                            <p class="mb-0 fs-5 text-light">Where the journey began. Forty-player raids, gruelling
+                                attunements, and server firsts.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="6000">
+                        <img src="./wallpapers/wall2-1600x1200.jpg" class="d-block w-100" alt="The Burning Crusade" loading="lazy" width="1600" height="1200">
+                        <div class="carousel-caption d-none d-md-block">
+                            <img src="./logos/WOW_Burning_Crusade_transparency.png" alt="TBC Logo" height="80"
+                                class="mb-3" loading="lazy" width="120" height="80">
+                            <h3 class="fw-bold mb-2 text-gold">Beyond the Dark Portal</h3>
+                            <p class="mb-0 fs-5 text-light">You are not prepared! Explore shattered Outland, tame flying
+                                mounts, and face Illidan Stormrage.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="6000">
+                        <img src="./wallpapers/wall1-1600x1200.jpg" class="d-block w-100" alt="Wrath of the Lich King" loading="lazy" width="1600" height="1200">
+                        <div class="carousel-caption d-none d-md-block">
+                            <img src="./logos/WOW_Wrath_of_the_Lich_King_transparency.png" alt="WotLK Logo" height="80"
+                                class="mb-3" loading="lazy" width="120" height="80">
+                            <h3 class="fw-bold mb-2 wotlk-color">The Fall of Arthas</h3>
+                            <p class="mb-0 fs-5 text-light">Master the Death Knight class, assault Icecrown Citadel, and
+                                end the Lich King's reign.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#expansionCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#expansionCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Classes & Races Showcase -->
+    <section id="classes" class="py-5">
+        <div class="container my-5">
+            <h2 class="section-title">Champions of Azeroth</h2>
+            <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6 g-4 justify-content-center text-center">
+                <!-- Avatars from 0-1-1 to 1-11-8 mapped generically -->
+                <div class="col">
+                    <img src="./avatars/Level_80_Forum_Avatars/1-4-1.gif" alt="Human Paladin"
+                        class="avatar-frame mb-3 d-block mx-auto" loading="lazy" width="80" height="80">
+                    <h5 class="text-gold mb-1">Paladin</h5>
+                    <small class="text-muted d-block">Holy Defender</small>
+                </div>
+                <div class="col">
+                    <img src="./avatars/Level_80_Forum_Avatars/0-6-1.gif" alt="Orc Warrior"
+                        class="avatar-frame mb-3 d-block mx-auto" loading="lazy" width="80" height="80">
+                    <h5 class="text-gold mb-1">Warrior</h5>
+                    <small class="text-muted d-block">Melee Master</small>
+                </div>
+                <div class="col">
+                    <img src="./avatars/Level_80_Forum_Avatars/1-5-1.gif" alt="Gnome Mage"
+                        class="avatar-frame mb-3 d-block mx-auto" loading="lazy" width="80" height="80">
+                    <h5 class="text-gold mb-1">Mage</h5>
+                    <small class="text-muted d-block">Arcane Scholar</small>
+                </div>
+                <div class="col">
+                    <img src="./avatars/Level_80_Forum_Avatars/0-3-1.gif" alt="Troll Hunter"
+                        class="avatar-frame mb-3 d-block mx-auto" loading="lazy" width="80" height="80">
+                    <h5 class="text-gold mb-1">Hunter</h5>
+                    <small class="text-muted d-block">Beast Master</small>
+                </div>
+                <div class="col">
+                    <img src="./avatars/Level_80_Forum_Avatars/1-7-1.gif" alt="Night Elf Druid"
+                        class="avatar-frame mb-3 d-block mx-auto" loading="lazy" width="80" height="80">
+                    <h5 class="text-gold mb-1">Druid</h5>
+                    <small class="text-muted d-block">Shapeshifter</small>
+                </div>
+                <!-- Adding Death Knight Specific Callout -->
+                <div class="col">
+                    <img src="./avatars/Death_Knight_Icons/1-4-1.gif" alt="Death Knight"
+                        class="avatar-frame mb-3 d-block mx-auto deathknight-highlight" loading="lazy" width="80" height="80">
+                    <h5 class="mb-1 glow-blue wotlk-color">Death Knight</h5>
+                    <small class="text-info d-block">First Hero Class</small>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="#" class="btn btn-outline-light px-4 py-2 border-secondary hover-gold">View Talent
+                    Calculators</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Gallery Wall -->
+    <section id="gallery" class="py-5">
+        <div class="container mt-4">
+            <h2 class="section-title">Visions of Northrend</h2>
+            <div class="gallery-grid">
+                <!-- Screenshots -->
+                <div class="gallery-item">
+                    <img src="./screenshots/WoW_WotLK_ss02.jpg" alt="Dragonblight" loading="lazy" width="1200" height="800">
+                    <div class="gallery-caption">Dragonblight</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./screenshots/WoW_WotLK_ss04.jpg" alt="Borean Tundra" loading="lazy" width="1200" height="800">
+                    <div class="gallery-caption">Borean Tundra</div>
+                </div>
+                <!-- Artwork -->
+                <div class="gallery-item">
+                    <img src="./artwork/LichKing.jpg" alt="Arthas Menethil" loading="lazy" width="1200" height="800">
+                    <div class="gallery-caption">The Lich King</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./screenshots/WoW_WotLK_ss06.jpg" alt="Howling Fjord" loading="lazy" width="1200" height="800">
+                    <div class="gallery-caption">Howling Fjord Overlook</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./artwork/Ulduar.jpg" alt="Ulduar Raid" loading="lazy" width="1200" height="800">
+                    <div class="gallery-caption">Ulduar Approaching</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./screenshots/WoW_WotLK_ss11.jpg" alt="Icecrown" loading="lazy" width="1200" height="800">
+                    <div class="gallery-caption">Icecrown Glaciers</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./artwork/GrizzlyHills.jpg" alt="Grizzly Hills Concept" loading="lazy" width="1200" height="800">
+                    <div class="gallery-caption">Grizzly Hills Concept</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./screenshots/WoW_WotLK_ss12.jpg" alt="The Nexus" loading="lazy" width="1200" height="800">
+                    <div class="gallery-caption">The Nexus Core</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Lore & Story Highlights -->
+    <section id="lore" class="py-5">
+        <div class="container mt-3">
+            <h2 class="section-title">Tomes of Knowledge</h2>
+
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0 text-center">
+                    <img src="./artwork/Sylvanas_LineDrawing.jpg" alt="Sylvanas Windrunner" class="img-fluid rounded sylvanas-img" loading="lazy" width="800" height="500">
+                </div>
+                <div class="col-lg-7">
+                    <div class="accordion parchment-bg rounded-3 p-2" id="loreAccordion">
+                        <div class="accordion-item bg-transparent border-0 border-bottom border-dark">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button parchment-bg fs-4 fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    The Fall of Lordaeron
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#loreAccordion">
+                                <div class="accordion-body fs-5">
+                                    Prince Arthas Menethil, once the paladin champion of Lordaeron, journeyed to the
+                                    frozen wastes of Northrend seeking the cursed runeblade, Frostmourne. He claimed the
+                                    weapon to save his people, but instead, it claimed his soul. Returning home as a
+                                    Death Knight, he murdered his father and shattered his own kingdom, paving the way
+                                    for the Scourge.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-transparent border-0 border-bottom border-dark">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button parchment-bg collapsed fs-4 fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    The Rise of the Lich King
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#loreAccordion">
+                                <div class="accordion-body fs-5">
+                                    Ascending the Frozen Throne, Arthas shattered the ice encasing the spirit of the orc
+                                    shaman Ner'zhul. Donning the Helm of Domination, the two spirits merged into one
+                                    unfathomably powerful entity: the Lich King. From his citadel in Icecrown, he now
+                                    commands the endless undead armies of the Scourge, threatening all of Azeroth.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-transparent border-0">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button parchment-bg collapsed fs-4 fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    The Ebon Blade
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#loreAccordion">
+                                <div class="accordion-body fs-5">
+                                    Formerly champions of the Scourge, the Death Knights of Acherus broke free from the
+                                    Lich King's control following the battle of Light's Hope Chapel. Now led by Highlord
+                                    Darion Mograine, the Knights of the Ebon Blade have sworn a singular oath: to see
+                                    the Lich King destroyed, no matter the cost.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Community Corner -->
+    <section id="community" class="py-5">
+        <div class="container mt-4">
+            <h2 class="section-title">Tavern Chatter</h2>
+            <div class="row">
+                <!-- Mock Forums -->
+                <div class="col-lg-8 mb-5 mb-lg-0">
+                    <div class="card bg-panel border-metal mb-4 wow-card">
+                        <div
+                            class="card-header bg-dark border-bottom border-secondary d-flex justify-content-between align-items-center">
+                            <h4 class="mb-0 text-white"><i class="text-gold me-2">◆</i> General Discussion</h4>
+                            <span class="badge bg-secondary p-2">1,245 Online</span>
+                        </div>
+                        <div class="list-group list-group-flush bg-transparent">
+                            <a href="#"
+                                class="list-group-item list-group-item-action bg-transparent border-secondary text-light forum-link py-3">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1 text-gold">LFM Naxx 10-man - Need OT & Heals</h5>
+                                    <small class="text-muted">3 mins ago</small>
+                                </div>
+                                <div class="mt-2 d-flex align-items-center">
+                                    <img src="./avatars/Level_80_Forum_Avatars/1-6-3.gif" alt="Tauren"
+                                        class="rounded border border-secondary me-2" width="30" height="30" loading="lazy">
+                                    <small>by <span class="text-info fw-bold">BeefMage</span> | Replies: 14</small>
+                                </div>
+                            </a>
+                            <a href="#"
+                                class="list-group-item list-group-item-action bg-transparent border-secondary text-light forum-link py-3">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1 text-gold">Is Ret Paladin viable in Arena 2v2?</h5>
+                                    <small class="text-muted">15 mins ago</small>
+                                </div>
+                                <div class="mt-2 d-flex align-items-center">
+                                    <img src="./avatars/Level_80_Forum_Avatars/1-4-1.gif" alt="Human"
+                                        class="rounded border border-secondary me-2" width="30" height="30" loading="lazy">
+                                    <small>by <span class="text-danger fw-bold">BubbleHearth</span> | Replies: 42</small>
+                                </div>
+                            </a>
+                            <a href="#"
+                                class="list-group-item list-group-item-action bg-transparent border-secondary text-light forum-link py-3">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1 text-gold">[Sticky] Server Maintenance Schedule - Tuesday</h5>
+                                    <small class="text-warning">Blue Post</small>
+                                </div>
+                                <div class="mt-2 d-flex align-items-center">
+                                    <img src="./logos/Blizzard.gif" alt="Blizzard" class="rounded bg-white p-1 me-2"
+                                        width="30" height="30" loading="lazy">
+                                    <small>by <span class="text-primary fw-bold">Thrall</span> | Replies: ∞</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Downloads/CTA aside -->
+                <div class="col-lg-4">
+                    <div id="downloads" class="card wow-card text-center mb-4">
+                        <div class="card-body p-4 bg-dark">
+                            <h4 class="text-gold mb-3">Client Download</h4>
+                            <p class="text-muted mb-4 small">Download the Official Game Client for World of Warcraft:
+                                Wrath of the Lich King (v3.3.5a).</p>
+                            <a href="#" class="btn btn-wow w-100 mb-2 py-2">Windows Installer (PC)</a>
+                            <a href="#" class="btn btn-wow w-100 my-2 py-2">macOS Installer (Mac)</a>
+                        </div>
+                    </div>
+                    <div class="wow-card text-center p-3">
+                        <img src="./artwork/Tuskarr_Parchment.jpg" alt="Tuskarr Rep"
+                            class="img-fluid rounded border border-dark mb-2 tuskarr-img" loading="lazy" width="400" height="200">
+                        <h5 class="text-white mt-2">Kalu'ak Reputation Guide</h5>
+                        <p class="small text-muted mb-2">Earn your Mastercraft Kalu'ak Fishing Pole today!</p>
+                        <a href="#" class="text-info text-decoration-none small glow-blue">Read Guide &raquo;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- 9. Footer -->
+    <footer class="wow-footer text-center">
+        <div class="container">
+            <div class="mb-5">
+                <img src="./logos/Blizzard_800.jpg" alt="Blizzard Entertainment" class="img-fluid blizzard-logo-bw"
+                    loading="lazy" width="120" height="60">
+            </div>
+
+            <div class="d-flex justify-content-center gap-4 mb-4">
+                <a href="#" class="text-muted text-decoration-none hover-gold">Terms of Use</a>
+                <span class="text-secondary">|</span>
+                <a href="#" class="text-muted text-decoration-none hover-gold">Privacy Policy</a>
+                <span class="text-secondary">|</span>
+                <a href="#" class="text-muted text-decoration-none hover-gold">Cookie Policy</a>
+            </div>
+
+            <p class="text-secondary mb-2 legal-note">
+                &copy; 2026 Blizzard Entertainment, Inc. All rights reserved. World of Warcraft, Warcraft and Blizzard
+                Entertainment are trademarks or registered trademarks of Blizzard Entertainment, Inc. in the U.S. and/or
+                other countries.
+            </p>
+            <p class="text-muted fst-italic mb-0 mt-3 small-note">
+                <span class="text-warning">Disclaimer:</span> This is a fan-created site using the official World of
+                Warcraft Fansite Kit. Not officially affiliated with, endorsed, or sponsored by Blizzard Entertainment.
+                "For the Horde... and the Alliance!"
+            </p>
+
+            <!-- A subtle jump-to-top easter egg -->
+            <a href="#home" class="btn btn-dark mt-5 rounded-circle border border-secondary jump-to-top"
+                title="Return to Icecrown">▲</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmxc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Minor inline JS for nav scroll effect -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const navbar = document.querySelector('.navbar-wow');
+
+            window.addEventListener('scroll', function () {
+                if (window.scrollY > 50) {
+                    navbar.style.background = 'rgba(5, 6, 8, 0.98)';
+                    navbar.style.boxShadow = '0 2px 15px rgba(0,0,0,0.8), 0 1px 0 rgba(248, 183, 0, 0.3)';
+                } else {
+                    navbar.style.background = 'rgba(9, 10, 12, 0.85)';
+                    navbar.style.boxShadow = 'none';
+                }
+            });
+
+            // For the Horde button handler (accessible replacement for javascript: URL)
+            const forHordeBtn = document.getElementById('forHordeBtn');
+            if (forHordeBtn) {
+                forHordeBtn.addEventListener('click', function () {
+                    alert('Lok-tar Ogar! Blood and thunder!');
+                });
+            }
+
+            // Keep navbar toggler aria-expanded in sync with collapse state
+            const wowNav = document.getElementById('wowNav');
+            const toggler = document.querySelector('.navbar-toggler');
+            if (wowNav && toggler) {
+                wowNav.addEventListener('show.bs.collapse', function () {
+                    toggler.setAttribute('aria-expanded', 'true');
+                });
+                wowNav.addEventListener('hide.bs.collapse', function () {
+                    toggler.setAttribute('aria-expanded', 'false');
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
